@@ -1,0 +1,16 @@
+[General]
+searchName=The Pirate Bay
+searchVersion=0.1
+searchAuthor=Jesper Thomschutz (evilhax0r@gmail.com)
+searchHost=thepiratebay.org
+searchURL=/search.php?q=
+torrentHost=static.thepiratebay.org
+torrentName=class="detLink" title=".+">(.+)</a></td>
+#torrentFile=class="detLink" title=".+">(.+)</a></td>
+torrentFile=href="http://static.thepiratebay.org(/downloadtorrent/.*)" title="Ladda 
+#torrentSize=class="detLink" title=".+">(.+)</a></td>
+#torrentSize=</a></td>[\n]<td align="right">(.*)</td>
+torrentSize=</a></td>[\n]<td align="right">(.+&nbsp;( B|KiB|MiB|GiB))
+torrentSeeders=<td align="right">.*</td>[\n]<td align="right">.*</td>[\n]<td align="right">(.*)</td>[\n]<td align="right">.+</td>[\n]<td><a href=
+torrentLeechers=<td align="right">.*</td>[\n]<td align="right">.*</td>[\n]<td align="right">.*</td>[\n]<td align="right">(.+)</td>[\n]<td><a href=
+

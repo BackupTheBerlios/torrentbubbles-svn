@@ -1,0 +1,17 @@
+[General]
+searchName=Torrent Spy
+searchVersion=0.1
+searchAuthor=Jesper Thomschutz (evilhax0r@gmail.com)
+searchHost=www.torrentspy.com
+searchURL=/search.asp?query=
+torrentHost=www.torrentspy.com
+torrentName=title=(.{0,80})><font size=1 face=verdana
+#torrentFile=href="http://static.thepiratebay.org(/downloadtorrent/.*)" title="Ladda 
+torrentFile=<td width="2%" align=center nowrap><a href="(.{0,40})" title="Download Torrent"
+torrentSize=<td width="6%" align=right nowrap>(.{0,10})</td><td width="6%"
+#torrentSeeders=</td><td width="6%" align=center nowrap>1</td><td width="6%" align=center nowrap>(.{0,10})</td><td width="6%" 
+#align=center nowrap
+#torrentSeeders=</a></td><td width="6%" align=right nowr.{0,10}</td><td width="6%" align=center nowrap>.{0,10}</td><td 
+#width="6%" align=center nowrap>(.{0,10})</td><td width="6%" align=center nowrap>
+torrentSeeders=</td><td width="6%" align=center nowrap>.{0,5}</td><td width="6%" align=center nowrap>(.{0,10})</td><td width="6%" align=center nowrap>
+torrentLeechers=<td width="6%" align=center nowrap>(.{0,10})</td><td width="8%" 

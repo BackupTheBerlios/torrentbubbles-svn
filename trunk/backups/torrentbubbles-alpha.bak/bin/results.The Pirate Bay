@@ -1,0 +1,423 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+<title>The Pirate Bay - Världens största BitTorrent tracker</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<link rel="stylesheet" type="text/css" href="http://83.140.65.4/css/pirate.css"/>
+<script type="text/javascript">
+<!--
+function setAll()
+{
+	document.forms['q'].elements['audio'].checked = false;
+	document.forms['q'].elements['video'].checked = false;
+	document.forms['q'].elements['apps'].checked = false;
+	document.forms['q'].elements['games'].checked = false;
+	document.forms['q'].elements['other'].checked = false;
+}
+function rmAll()
+{
+	document.forms['q'].elements['all'].checked = false;
+}
+-->
+
+</script>
+<script type="text/javascript">
+// Show/hide layer //
+function showLayer(obj) {
+	var spoken		=		document.getElementById('SpokenLangDiv');
+	var texted		=		document.getElementById('TextedLangDiv');
+	var imdb			=		document.getElementById('imdb');
+	var opt			=		obj.options[obj.selectedIndex];
+
+	if(opt.value =='201' || opt.value=='202' || opt.value == '204' || opt.value == '205' || opt.value == '501' || opt.value == '502') {
+		if (opt.value == '201' || opt.value== '202' || opt.value == '205' || opt.value == '501' || opt.value == '502') {
+			spoken.style.display='block';
+			texted.style.display='block';
+			imdb.style.display='block';
+			imdblbl.style.display='block';
+		}	
+		else {
+			spoken.style.display='block';
+			texted.style.display='block';
+			imdb.style.display='none';
+			imdblbl.style.display='none';
+		}
+	}
+	
+	else if (opt.value =='102' || opt.value == '103') {
+		spoken.style.display='block';
+		texted.style.display='none';
+		imdb.style.display='none';
+		imdblbl.style.display='none';
+	}
+	
+	else if (opt.value == '601') {
+		texted.style.display='block';
+		spoken.style.display='none';
+		imdb.style.display='none';
+		imdblbl.style.display='none';
+	}
+
+	else {
+      	spoken.style.display='none';
+	      texted.style.display='none';
+			imdb.style.display='none';
+			imdblbl.style.display='none';
+	}
+}
+</script>
+</head>
+
+<body>
+<div id="searchfield">
+	
+	<form method="get" id="q" action="search.php">
+		<a href="./" class="img"><img src="http://static.thepiratebay.org/img/tpblogo_sm.gif" id="TPBlogo" alt="The Pirate Bay" /></a>
+		<div id="banner1"></div>
+		<b><a href="./">Sök torrenter</a></b>&nbsp;&nbsp;|&nbsp;
+<a href="browse.php">Bläddra bland torrenter</a>&nbsp;&nbsp;|&nbsp;
+<a href="recent.php">Nya torrenter</a>&nbsp;&nbsp;|&nbsp;
+<a href="top100.php">Topp 100</a><br /><input type="text" class="inputbox" name="q" value="hack" /><input value="Piratsök" type="submit" class="submitbutton" /><br /><label for="all"><input id="all" onclick="javascript:setAll();" type="checkbox" checked="checked"/>Alla</label>
+		<label for="audio"><input id="audio" name="audio" onclick="javascript:rmAll();" type="checkbox"/>Ljud</label>
+		<label for="video"><input id="video" name="video" onclick="javascript:rmAll();" type="checkbox"/>Video</label>
+		<label for="apps"><input id="apps" name="apps" onclick="javascript:rmAll();" type="checkbox"/>Program</label>
+		<label for="games"><input id="games" name="games" onclick="javascript:rmAll();" type="checkbox"/>Spel</label>
+		<label for="other"><input id="other" name="other" onclick="javascript:rmAll();" type="checkbox"/>Annat</label>
+	</form>
+</div>
+
+<h2><span>Sökresultat: hack</span>&nbsp;</h2>
+
+<table id="searchResult">
+<thead id="tableHead">
+<tr class="header">
+<th>Typ</th>
+<th><a href="/search.php?page=&orderby=name">Namn</a></th>
+
+<th><a href="/search.php?page=&orderby=date">Uppladdad</a></th>
+
+<th>&nbsp;</th>
+<th><a href="/search.php?page=&orderby=size">Storlek</a></th><th><abbr title="Nerladdningar"><a href="/search.php?page=&orderby=dl">NL</a></abbr></th>
+<th><abbr title="Distributörer"><a href="/search.php?page=&orderby=se">DB</a></abbr></th>
+<th><abbr title="Reciprokörer"><a href="/search.php?page=&orderby=le">RP</a></abbr></th>
+<th><nobr><a href="/search.php?page=&orderby=ulby">Uppladdare</a></nobr></th>
+</tr>
+</thead>
+<tr>
+<td class="="vertTh"><a href="brwsearch.php?b=1&amp;c=403" title="Mer från denna kategori">Spel > PS2</a></td>
+<td><a href="details.php?id=3328454" class="detLink" title="Detaljer för ps2 exploder V5 pro">ps2 exploder V5 pro</a></td>
+<td>05-10 00:07</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3328454.torrent/ps2_exploder_V5_pro.3328454.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">671.58&nbsp;MiB</td>
+<td align="right">946</td>
+<td align="right">1</td>
+<td align="right">4</td>
+<td><a href="pm.php?to=723120">ranma</a></td>
+</tr>
+<tr><td colspan="9" style="text-align:center;"></td></tr>
+</table>
+<p>
+
+<br/>
+
+<a href="login.php">Logga in</a> | <a href="register.php">Registrera</a> | <a href="language.php">Language / Välj språk</a> | 
+<a href="donate.php"><b><em>Donera</em></b></a> | 
+<a href="about.php">Om</a> | 
+<a href="legal.php">Juridisk korrespondens</a> | 
+<a href="news.php">Nyheter</a>
+</p>
+
+<p id="footer" style="color:#666; font-size:.8em; ">
+        351984 registrerade användare.<br />
+        901514 noder (687305 reciprokörer + 214209 distributörer) av 66402 torrenter på trackern.<br />
+	Senast uppdaterad 0:55:02<br />
+        Trackermjukvara: Hypercube av anakata</p>
+
+</body>
+</html>
+align="right">452.65&nbsp;MiB</td>
+<td align="right">1900</td>
+<td align="right">10</td>
+<td align="right">14</td>
+<td><a href="pm.php?to=370675">swe_Fredro</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=202" title="Mer från denna kategori">Video > Filmer DVDR</a></td>
+<td><a href="details.php?id=3336985" class="detLink" title="Detaljer för O Brother, where art thou?">O Brother, where art thou?</a></td>
+<td>05-27 23:27</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3336985.torrent/O_Brother__where_art_thou_.3336985.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">4.28&nbsp;GiB</td>
+<td align="right">1318</td>
+<td align="right">4</td>
+<td align="right">30</td>
+<td><a href="pm.php?to=730199">trixiehobbit</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=101" title="Mer från denna kategori">Ljud > Musik</a></td>
+<td><a href="details.php?id=3329043" class="detLink" title="Detaljer för Kate Bush x4">Kate Bush x4</a></td>
+<td>05-11 12:58</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3329043.torrent/Kate_Bush_x4.3329043.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">159.11&nbsp;MiB</td>
+<td align="right">886</td>
+<td align="right">1</td>
+<td align="right">5</td>
+<td><a href="pm.php?to=414379">strata1962</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=401" title="Mer från denna kategori">Spel > PC</a></td>
+<td><a href="details.php?id=3329011" class="detLink" title="Detaljer för TrackMania SunRise NO-CD or CRACK">TrackMania SunRise NO-CD or CRACK</a></td>
+<td>05-11 11:04</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3329011.torrent/TrackMania_SunRise_NO-CD_or_CRACK.3329011.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">114&nbsp;B</td>
+<td align="right">1076</td>
+<td align="right">6</td>
+<td align="right">1</td>
+<td><a href="pm.php?to=1428412">Giele</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=201" title="Mer från denna kategori">Video > Filmer</a></td>
+<td><a href="details.php?id=3327811" class="detLink" title="Detaljer för Taxi 2004 DVDRiP SVCD SWESUB-PRIPPS">Taxi 2004 DVDRiP SVCD SWESUB-PRIPPS</a></td>
+<td>05-08 20:10</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3327811.torrent/Taxi_2004_DVDRiP_SVCD_SWESUB-PRIPPS.3327811.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">1.61&nbsp;GiB</td>
+<td align="right">1142</td>
+<td align="right">3</td>
+<td align="right">6</td>
+<td><a href="pm.php?to=447238">AcIDTrancer</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=404" title="Mer från denna kategori">Spel > Xbox</a></td>
+<td><a href="details.php?id=3323881" class="detLink" title="Detaljer för xecuter 2 5031 build">xecuter 2 5031 build</a></td>
+<td>05-01 07:26</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3323881.torrent/xecuter_2_5031_build.3323881.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">1.68&nbsp;MiB</td>
+<td align="right">1126</td>
+<td align="right">2</td>
+<td align="right">1</td>
+<td><a href="pm.php?to=640954">max0r4axor</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=301" title="Mer från denna kategori">Program > Windows</a></td>
+<td><a href="details.php?id=3322929" class="detLink" title="Detaljer för Hack for Counter Strike Source V 71">Hack for Counter Strike Source V 71</a></td>
+<td>04-28 19:46</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3322929.torrent/Hack_for_Counter_Strike_Source_V_71.3322929.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">552.91&nbsp;KiB</td>
+<td align="right">610</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td><a href="pm.php?to=632605">sikmansik66</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=301" title="Mer från denna kategori">Program > Windows</a></td>
+<td><a href="details.php?id=3319567" class="detLink" title="Detaljer för Hack and Mess up 2 (hacking program) build 1004">Hack and Mess up 2 (hacking program) build 1004</a></td>
+<td>04-20 23:26</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3319567.torrent/Hack_and_Mess_up_2_(hacking_program)_build_1004.3319567.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">23.06&nbsp;MiB</td>
+<td align="right">2277</td>
+<td align="right">3</td>
+<td align="right">2</td>
+<td><a href="pm.php?to=1546418">SoidSnake</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=301" title="Mer från denna kategori">Program > Windows</a></td>
+<td><a href="details.php?id=3315945" class="detLink" title="Detaljer för Hack and Mess up 2 (hacking program)">Hack and Mess up 2 (hacking program)</a></td>
+<td>04-12 20:41</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3315945.torrent/Hack_and_Mess_up_2_(hacking_program).3315945.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">6.72&nbsp;MiB</td>
+<td align="right">1256</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td><a href="pm.php?to=1546418">SoidSnake</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=301" title="Mer från denna kategori">Program > Windows</a></td>
+<td><a href="details.php?id=3315038" class="detLink" title="Detaljer för MEGA PocketPC Apps   Games Pack (10th April '05)- n00bs">MEGA PocketPC Apps   Games Pack (10th April '05)- n00bs</a></td>
+<td>04-10 23:22</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3315038.torrent/MEGA_PocketPC_Apps___Games_Pack_(10th_April__05)-_n00bs.3315038.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">106.46&nbsp;MiB</td>
+<td align="right">4948</td>
+<td align="right">34</td>
+<td align="right">6</td>
+<td><a href="pm.php?to=309331">ultrasoul</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=301" title="Mer från denna kategori">Program > Windows</a></td>
+<td><a href="details.php?id=3312906" class="detLink" title="Detaljer för All the Hacking tools and manuals you need to hack hotmail or co">All the Hacking tools and manuals you need to hack hotmail or co</a></td>
+<td>04-06 19:13</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3312906.torrent/All_the_Hacking_tools_and_manuals_you_need_to_hack_hotmail_or_co.3312906.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">7.28&nbsp;MiB</td>
+<td align="right">3381</td>
+<td align="right">2</td>
+<td align="right">1</td>
+<td><a href="pm.php?to=1313056">braskamin1</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=401" title="Mer från denna kategori">Spel > PC</a></td>
+<td><a href="details.php?id=3298147" class="detLink" title="Detaljer för Atari emun STEEM v3,2+500 roms">Atari emun STEEM v3,2+500 roms</a></td>
+<td>03-04 23:49</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3298147.torrent/Atari_emun_STEEM_v3_2_500_roms.3298147.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">399.63&nbsp;MiB</td>
+<td align="right">9400</td>
+<td align="right">1</td>
+<td align="right">4</td>
+<td><a href="pm.php?to=715395">greven</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=301" title="Mer från denna kategori">Program > Windows</a></td>
+<td><a href="details.php?id=3283816" class="detLink" title="Detaljer för 263 Commercial.ASP CGI Perl.and PHP scripts">263 Commercial.ASP CGI Perl.and PHP scripts</a></td>
+<td>02-01 15:49</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3283816.torrent/263_Commercial.ASP_CGI_Perl.and_PHP_scripts.3283816.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">84.02&nbsp;MiB</td>
+<td align="right">2781</td>
+<td align="right">3</td>
+<td align="right">3</td>
+<td><a href="pm.php?to=563784">Cell88</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=401" title="Mer från denna kategori">Spel > PC</a></td>
+<td><a href="details.php?id=3266806" class="detLink" title="Detaljer för Forgotten.Realms.Demon.Stone.DVD-VENGEANCE">Forgotten.Realms.Demon.Stone.DVD-VENGEANCE</a></td>
+<td>12-19 16:15</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3266806.torrent/Forgotten.Realms.Demon.Stone.DVD-VENGEANCE.3266806.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">1.87&nbsp;GiB</td>
+<td align="right">6213</td>
+<td align="right">2</td>
+<td align="right">24</td>
+<td><a href="pm.php?to=872078">SiNo</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=101" title="Mer från denna kategori">Ljud > Musik</a></td>
+<td><a href="details.php?id=3265628" class="detLink" title="Detaljer för [DJ Kicks: Erlend Øye], [DJ Kicks: Tiga], [Electronicbody-Housem">[DJ Kicks: Erlend Øye], [DJ Kicks: Tiga], [Electronicbody-Housem</a></td>
+<td>12-16 03:48</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3265628.torrent/[DJ_Kicks__Erlend__ye]__[DJ_Kicks__Tiga]__[Electronicbody-Housem.3265628.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">322.28&nbsp;MiB</td>
+<td align="right">2500</td>
+<td align="right">2</td>
+<td align="right">5</td>
+<td><a href="pm.php?to=7920">Fluff_Daddy</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=401" title="Mer från denna kategori">Spel > PC</a></td>
+<td><a href="details.php?id=3265551" class="detLink" title="Detaljer för Legacy of Kain - Blood Omen 2">Legacy of Kain - Blood Omen 2</a></td>
+<td>12-15 23:29</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3265551.torrent/Legacy_of_Kain_-_Blood_Omen_2.3265551.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">1.3&nbsp;GiB</td>
+<td align="right">1374</td>
+<td align="right">1</td>
+<td align="right">10</td>
+<td><a href="pm.php?to=1946738">Jeder</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=301" title="Mer från denna kategori">Program > Windows</a></td>
+<td><a href="details.php?id=3252872" class="detLink" title="Detaljer för DVD X Player Professional 3.0 + Regnr">DVD X Player Professional 3.0 + Regnr</a></td>
+<td>11-02 13:59</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3252872.torrent/DVD_X_Player_Professional_3.0___Regnr.3252872.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">3.05&nbsp;MiB</td>
+<td align="right">2764</td>
+<td align="right">1</td>
+<td align="right">2</td>
+<td><a href="pm.php?to=1321171">sHiN3</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=205" title="Mer från denna kategori">Video > TV</a></td>
+<td><a href="details.php?id=3235980" class="detLink" title="Detaljer för Hackers - Outlaws and Angels TVRip XViD">Hackers - Outlaws and Angels TVRip XViD</a></td>
+<td>09-02 14:33</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3235980.torrent/Hackers_-_Outlaws_and_Angels_TVRip_XViD.3235980.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">316.26&nbsp;MiB</td>
+<td align="right">1933</td>
+<td align="right">2</td>
+<td align="right">4</td>
+<td><a href="pm.php?to=1240846">trosa</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=401" title="Mer från denna kategori">Spel > PC</a></td>
+<td><a href="details.php?id=3223636" class="detLink" title="Detaljer för Diablo 2 - Lord of Destruction (Expansion)">Diablo 2 - Lord of Destruction (Expansion)</a></td>
+<td>07-10 05:48</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3223636.torrent/Diablo_2_-_Lord_of_Destruction_(Expansion).3223636.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">557.43&nbsp;MiB</td>
+<td align="right">7152</td>
+<td align="right">1</td>
+<td align="right">5</td>
+<td><a href="pm.php?to=1368943">PiDuT</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=401" title="Mer från denna kategori">Spel > PC</a></td>
+<td><a href="details.php?id=3223567" class="detLink" title="Detaljer för Diablo 2">Diablo 2</a></td>
+<td>07-09 18:20</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3223567.torrent/Diablo_2.3223567.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">1.67&nbsp;GiB</td>
+<td align="right">10806</td>
+<td align="right">2</td>
+<td align="right">19</td>
+<td><a href="pm.php?to=1368943">PiDuT</a></td>
+</tr>
+<tr><td colspan="9" style="text-align:center;"></td></tr>
+</table>
+<p>
+
+<br/>
+
+<a href="login.php">Logga in</a> | <a href="register.php">Registrera</a> | <a href="language.php">Language / Välj språk</a> | 
+<a href="donate.php"><b><em>Donera</em></b></a> | 
+<a href="about.php">Om</a> | 
+<a href="legal.php">Juridisk korrespondens</a> | 
+<a href="news.php">Nyheter</a>
+</p>
+
+<p id="footer" style="color:#666; font-size:.8em; ">
+        351984 registrerade användare.<br />
+        901514 noder (687305 reciprokörer + 214209 distributörer) av 66402 torrenter på trackern.<br />
+	Senast uppdaterad 0:55:02<br />
+        Trackermjukvara: Hypercube av anakata</p>
+
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    3" title="Mer från denna kategori">Program > UNIX</a></td>
+<td><a href="details.php?id=3318988" class="detLink" title="Detaljer för SuSE Linux Professional v9 3 MULTiLANGUAGE ISO-TBE">SuSE Linux Professional v9 3 MULTiLANGUAGE ISO-TBE</a></td>
+<td>04-19 14:15</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3318988.torrent/SuSE_Linux_Professional_v9_3_MULTiLANGUAGE_ISO-TBE.3318988.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">3.84&nbsp;GiB</td>
+<td align="right">4633</td>
+<td align="right">3</td>
+<td align="right">20</td>
+<td><a href="pm.php?to=882800">webslave</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=303" title="Mer från denna kategori">Program > UNIX</a></td>
+<td><a href="details.php?id=3316127" class="detLink" title="Detaljer för VMware Workstation 5 0 0-13124 for Linux">VMware Workstation 5 0 0-13124 for Linux</a></td>
+<td>04-13 06:56</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3316127.torrent/VMware_Workstation_5_0_0-13124_for_Linux.3316127.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">131.14&nbsp;MiB</td>
+<td align="right">3831</td>
+<td align="right">10</td>
+<td align="right">2</td>
+<td><a href="pm.php?to=566391">pushf12</a></td>
+</tr>
+<tr><td colspan="9" style="text-align:center;">&nbsp;1&nbsp;<a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&page=1">2</a>&nbsp;<a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&page=2">3</a>&nbsp;<a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&page=1"><img src="http://static.thepiratebay.org/img/next.gif" border=0></a></td></tr>
+</table>
+<p>
+
+<br/>
+
+<a href="login.php">Logga in</a> | <a href="register.php">Registrera</a> | <a href="language.php">Language / Välj språk</a> | 
+<a href="donate.php"><b><em>Donera</em></b></a> | 
+<a href="about.php">Om</a> | 
+<a href="legal.php">Juridisk korrespondens</a> | 
+<a href="news.php">Nyheter</a>
+</p>
+
+<p id="footer" style="color:#666; font-size:.8em; ">
+        351984 registrerade användare.<br />
+        901514 noder (687305 reciprokörer + 214209 distributörer) av 66402 torrenter på trackern.<br />
+	Senast uppdaterad 0:55:02<br />
+        Trackermjukvara: Hypercube av anakata</p>
+
+</body>
+</html>
+ trackern.<br />
+	Senast uppdaterad 0:55:02<br />
+        Trackermjukvara: Hypercube av anakata</p>
+
+</body>
+</html>

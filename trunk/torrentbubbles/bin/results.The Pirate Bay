@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+<title>The Pirate Bay - Världens största BitTorrent tracker</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<link rel="stylesheet" type="text/css" href="http://83.140.65.4/css/pirate.css"/>
+<script type="text/javascript">
+<!--
+function setAll()
+{
+	document.forms['q'].elements['audio'].checked = false;
+	document.forms['q'].elements['video'].checked = false;
+	document.forms['q'].elements['apps'].checked = false;
+	document.forms['q'].elements['games'].checked = false;
+	document.forms['q'].elements['other'].checked = false;
+}
+function rmAll()
+{
+	document.forms['q'].elements['all'].checked = false;
+}
+-->
+
+</script>
+</head>
+
+<body>
+<div id="searchfield">
+
+<a class="ad" href="b.php?client_id=6&ck=3295c76acbf4caaed33c36b1b5fc2cb1"><img width="486" height="60" src="http://banners.pc-direct.dk/468x60_se/banner7.gif" border="0"></a>	<form method="get" id="q" action="search.php">
+		<a href="./" class="img"><img src="http://static.thepiratebay.org/img/tpblogo_sm.gif" id="TPBlogo" alt="The Pirate Bay" /></a>
+		<div id="banner1"></div>
+		<b><a href="./">Sök torrenter</a></b>&nbsp;&nbsp;|&nbsp;
+<a href="browse.php">Bläddra bland torrenter</a>&nbsp;&nbsp;|&nbsp;
+<a href="recent.php">Nya torrenter</a>&nbsp;&nbsp;|&nbsp;
+<a href="top100.php">Topp 100</a><br /><input type="text" class="inputbox" name="q" value="linux" /><input value="Piratsök" type="submit" class="submitbutton" /><br /><label for="all"><input id="all" onclick="javascript:setAll();" type="checkbox" checked="checked"/>Alla</label>
+		<label for="audio"><input id="audio" name="audio" onclick="javascript:rmAll();" type="checkbox"/>Ljud</label>
+		<label for="video"><input id="video" name="video" onclick="javascript:rmAll();" type="checkbox"/>Video</label>
+		<label for="apps"><input id="apps" name="apps" onclick="javascript:rmAll();" type="checkbox"/>Program</label>
+		<label for="games"><input id="games" name="games" onclick="javascript:rmAll();" type="checkbox"/>Spel</label>
+		<label for="other"><input id="other" name="other" onclick="javascript:rmAll();" type="checkbox"/>Annat</label>
+	</form>
+</div>
+
+<h2><span>Sökresultat: linux</span>&nbsp;</h2>
+
+<table width="100%" height="165px"><tr><td><script type="text/javascript">
+<!--
+customer_id = '234111$129';
+cid = "3221,3221,30061,30063";
+b_type = 1;
+b_adults = 1;
+b_skip = "";
+b_width = document.body.offsetWidth-147;
+b_height = 165;
+b_links = 3;
+b_orientation = 1;
+b_preset = "0!1!0$$0!3!0$$0!4!%23D2B9A6$$0!6!19$$1!1!0$$1!7!%26nbsp%3BSponsored%26nbsp%3BLinks%3A$$2!1!8$$2!2!0$$2!3!0$$3!1!%230000C0$$3!2!1$$3!4!13$$3!5!1$$4!1!0$$4!2!1$$4!4!13$$5!1!17$$5!2!1$$6!1!0$$6!3!0$$6!4!8$$6!6!1$$7!1!8$$7!5!0$$8!1!8$$";
+//-->
+</script>
+<script type="text/javascript" src="http://srs.targetpoint.com/resources/inc/banner.js"></script></td></tr></table><table id="searchResult">
+<thead id="tableHead">
+<tr class="header">
+<th>Typ</th>
+<th><a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&page=0&orderby=name">Namn</a></th>
+
+<th><a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&page=0&orderby=date">Uppladdad</a></th>
+
+<th>&nbsp;</th>
+<th><a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&page=0&orderby=size">Storlek</a></th><th><abbr title="Nerladdningar"><a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&page=0&orderby=dl">NL</a></abbr></th>
+<th><abbr title="Distributörer"><a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&page=0&orderby=se">DB</a></abbr></th>
+<th><abbr title="Reciprokörer"><a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&page=0&orderby=le">RP</a></abbr></th>
+<th><nobr><a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&page=0&orderby=ulby">Uppladdare</a></nobr></th>
+</tr>
+</thead>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=301" title="Mer från denna kategori">Program > Windows</a></td>
+<td><a href="details.php?id=3348574" class="detLink" title="Detaljer för eDonkey2000 1.3 Unlimited Pro (BetaMaster patch)">eDonkey2000 1.3 Unlimited Pro (BetaMaster patch)</a></td>
+<td>06-25&nbsp;18:49</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3348574.torrent/eDonkey2000_1.3_Unlimited_Pro_(BetaMaster_patch).3348574.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">3.02&nbsp;MiB</td>
+<td align="right">2266</td>
+<td align="right">75</td>
+<td align="right">12</td>
+<td><a href="pm.php?to=2074262">RiKsI</a></td>
+</tr>
+<tr class="alt">
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=303" title="Mer från denna kategori">Program > UNIX</a></td>
+<td><a href="details.php?id=3348549" class="detLink" title="Detaljer för Slackware 10.1">Slackware 10.1</a></td>
+<td>06-25&nbsp;15:38</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3348549.torrent/Slackware_10.1.3348549.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">1.24&nbsp;GiB</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">3</td>
+<td><a href="pm.php?to=2048262">Storas</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=601" title="Mer från denna kategori">Annat > E-böcker</a></td>
+<td><a href="details.php?id=3348132" class="detLink" title="Detaljer för Hentzenwerke.Publishing.Linux.Transfer.for.Windows.Power.Users.G">Hentzenwerke.Publishing.Linux.Transfer.for.Windows.Power.Users.G</a></td>
+<td>06-24&nbsp;10:38</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3348132.torrent/Hentzenwerke.Publishing.Linux.Transfer.for.Windows.Power.Users.G.3348132.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">24.35&nbsp;MiB</td>
+<td align="right">205</td>
+<td align="right">4</td>
+<td align="right">0</td>
+<td><a href="pm.php?to=1043920">Albacken</a></td>
+</tr>
+<tr class="alt">
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=101" title="Mer från denna kategori">Ljud > Musik</a></td>
+<td><a href="details.php?id=3348093" class="detLink" title="Detaljer för VA_-_Future_Trance_Vol.32-2CD-2005-QMI">VA_-_Future_Trance_Vol.32-2CD-2005-QMI</a></td>
+<td>06-24&nbsp;08:42</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3348093.torrent/VA_-_Future_Trance_Vol.32-2CD-2005-QMI.3348093.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">213.57&nbsp;MiB</td>
+<td align="right">2052</td>
+<td align="right">41</td>
+<td align="right">19</td>
+<td><a href="pm.php?to=2078322">oboyjimmy</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=601" title="Mer från denna kategori">Annat > E-böcker</a></td>
+<td><a href="details.php?id=3347723" class="detLink" title="Detaljer för McGraw.Hill.HackNotes.Linux.and.Unix.Security.Portable.Reference">McGraw.Hill.HackNotes.Linux.and.Unix.Security.Portable.Reference</a></td>
+<td>06-23&nbsp;08:56</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3347723.torrent/McGraw.Hill.HackNotes.Linux.and.Unix.Security.Portable.Reference.3347723.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">3.41&nbsp;MiB</td>
+<td align="right">1162</td>
+<td align="right">10</td>
+<td align="right">1</td>
+<td><a href="pm.php?to=1043920">Albacken</a></td>
+</tr>
+<tr class="alt">
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=303" title="Mer från denna kategori">Program > UNIX</a></td>
+<td><a href="details.php?id=3347551" class="detLink" title="Detaljer för Linux Debian 3.10a senaste">Linux Debian 3.10a senaste</a></td>
+<td>06-22&nbsp;23:18</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3347551.torrent/Linux_Debian_3.10a_senaste.3347551.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">373.59&nbsp;MiB</td>
+<td align="right">59</td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td><a href="pm.php?to=2055188">-=root=-</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=101" title="Mer från denna kategori">Ljud > Musik</a></td>
+<td><a href="details.php?id=3347531" class="detLink" title="Detaljer för Dave_McCullen_-_Bitch_Remix-Vinyl-2005-QMI">Dave_McCullen_-_Bitch_Remix-Vinyl-2005-QMI</a></td>
+<td>06-22&nbsp;22:53</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3347531.torrent/Dave_McCullen_-_Bitch_Remix-Vinyl-2005-QMI.3347531.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">25.44&nbsp;MiB</td>
+<td align="right">121</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td><a href="pm.php?to=1728230">craler</a></td>
+</tr>
+<tr class="alt">
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=101" title="Mer från denna kategori">Ljud > Musik</a></td>
+<td><a href="details.php?id=3347295" class="detLink" title="Detaljer för Jackson_5-ABC-1970-LLF">Jackson_5-ABC-1970-LLF</a></td>
+<td>06-22&nbsp;07:34</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3347295.torrent/Jackson_5-ABC-1970-LLF.3347295.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">51.61&nbsp;MiB</td>
+<td align="right">889</td>
+<td align="right">11</td>
+<td align="right">0</td>
+<td><a href="pm.php?to=827307">chilone</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=301" title="Mer från denna kategori">Program > Windows</a></td>
+<td><a href="details.php?id=3347285" class="detLink" title="Detaljer för X-Chat v.2.4.4 cracked">X-Chat v.2.4.4 cracked</a></td>
+<td>06-22&nbsp;03:58</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3347285.torrent/X-Chat_v.2.4.4_cracked.3347285.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">1.87&nbsp;MiB</td>
+<td align="right">315</td>
+<td align="right">0</td>
+<td align="right">2</td>
+<td><a href="pm.php?to=1626951">MDawson</a></td>
+</tr>
+<tr class="alt">
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=601" title="Mer från denna kategori">Annat > E-böcker</a></td>
+<td><a href="details.php?id=3347160" class="detLink" title="Detaljer för McGraw.Hill.RHCE.Red.Hat.Certified.Engineer.Linux.Study.Guide.Ex">McGraw.Hill.RHCE.Red.Hat.Certified.Engineer.Linux.Study.Guide.Ex</a></td>
+<td>06-21&nbsp;20:13</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3347160.torrent/McGraw.Hill.RHCE.Red.Hat.Certified.Engineer.Linux.Study.Guide.Ex.3347160.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">10.07&nbsp;MiB</td>
+<td align="right">946</td>
+<td align="right">8</td>
+<td align="right">1</td>
+<td><a href="pm.php?to=1043920">Albacken</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=303" title="Mer från denna kategori">Program > UNIX</a></td>
+<td><a href="details.php?id=3347009" class="detLink" title="Detaljer för ezpublish_livecd_1.1-3.5.1.iso">ezpublish_livecd_1.1-3.5.1.iso</a></td>
+<td>06-21&nbsp;11:31</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3347009.torrent/ezpublish_livecd_1.1-3.5.1.iso.3347009.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">475.05&nbsp;MiB</td>
+<td align="right">39</td>
+<td align="right">2</td>
+<td align="right">1</td>
+<td><a href="pm.php?to=2073861">thekracker</a></td>
+</tr>
+<tr class="alt">
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=401" title="Mer från denna kategori">Spel > PC</a></td>
+<td><a href="details.php?id=3346774" class="detLink" title="Detaljer för Nascar Racing 2002 - MYTH">Nascar Racing 2002 - MYTH</a></td>
+<td>06-20&nbsp;18:26</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3346774.torrent/Nascar_Racing_2002_-_MYTH.3346774.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">169.84&nbsp;MiB</td>
+<td align="right">311</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td><a href="pm.php?to=658009">enebring</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=303" title="Mer från denna kategori">Program > UNIX</a></td>
+<td><a href="details.php?id=3346698" class="detLink" title="Detaljer för cedega_4.3.2-1.i386.tgz">cedega_4.3.2-1.i386.tgz</a></td>
+<td>06-20&nbsp;13:41</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3346698.torrent/cedega_4.3.2-1.i386.tgz.3346698.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">7.27&nbsp;MiB</td>
+<td align="right">524</td>
+<td align="right">5</td>
+<td align="right">1</td>
+<td><a href="pm.php?to=2071735">rece</a></td>
+</tr>
+<tr class="alt">
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=601" title="Mer från denna kategori">Annat > E-böcker</a></td>
+<td><a href="details.php?id=3346561" class="detLink" title="Detaljer för McGraw.Hill.Red.Hat.Linux.Administration.A.Beginners.Guide.eBook">McGraw.Hill.Red.Hat.Linux.Administration.A.Beginners.Guide.eBook</a></td>
+<td>06-20&nbsp;02:21</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3346561.torrent/McGraw.Hill.Red.Hat.Linux.Administration.A.Beginners.Guide.eBook.3346561.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">35.07&nbsp;MiB</td>
+<td align="right">918</td>
+<td align="right">7</td>
+<td align="right">3</td>
+<td><a href="pm.php?to=1043920">Albacken</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=301" title="Mer från denna kategori">Program > Windows</a></td>
+<td><a href="details.php?id=3346050" class="detLink" title="Detaljer för Techie'zToolkit-v2.iso">Techie'zToolkit-v2.iso</a></td>
+<td>06-18&nbsp;17:13</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3346050.torrent/Techie__zToolkit-v2.iso.3346050.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">679.55&nbsp;MiB</td>
+<td align="right">1344</td>
+<td align="right">19</td>
+<td align="right">18</td>
+<td><a href="pm.php?to=2065275">voodochild</a></td>
+</tr>
+<tr class="alt">
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=301" title="Mer från denna kategori">Program > Windows</a></td>
+<td><a href="details.php?id=3346044" class="detLink" title="Detaljer för Eset.NOD32.Antivirus.Administrator.Edition.v2.50.16.PROPER.READ.">Eset.NOD32.Antivirus.Administrator.Edition.v2.50.16.PROPER.READ.</a></td>
+<td>06-18&nbsp;16:58</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3346044.torrent/Eset.NOD32.Antivirus.Administrator.Edition.v2.50.16.PROPER.READ..3346044.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">17.08&nbsp;MiB</td>
+<td align="right">696</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td><a href="pm.php?to=3986">q-biq</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=101" title="Mer från denna kategori">Ljud > Musik</a></td>
+<td><a href="details.php?id=3345998" class="detLink" title="Detaljer för DJ_Shadow-Entroducing_Deluxe_Edition-2CD-2005-JCE">DJ_Shadow-Entroducing_Deluxe_Edition-2CD-2005-JCE</a></td>
+<td>06-18&nbsp;15:07</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3345998.torrent/DJ_Shadow-Entroducing_Deluxe_Edition-2CD-2005-JCE.3345998.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">164.79&nbsp;MiB</td>
+<td align="right">856</td>
+<td align="right">3</td>
+<td align="right">2</td>
+<td><a href="pm.php?to=1366738">Milui</a></td>
+</tr>
+<tr class="alt">
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=102" title="Mer från denna kategori">Ljud > Ljudböcker</a></td>
+<td><a href="details.php?id=3345524" class="detLink" title="Detaljer för Astrid Lindgren - Madicken På Junibacken">Astrid Lindgren - Madicken På Junibacken</a></td>
+<td>06-17&nbsp;12:38</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3345524.torrent/Astrid_Lindgren_-_Madicken_P__Junibacken.3345524.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">70.23&nbsp;MiB</td>
+<td align="right">785</td>
+<td align="right">9</td>
+<td align="right">2</td>
+<td><a href="pm.php?to=732713">falkman</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=601" title="Mer från denna kategori">Annat > E-böcker</a></td>
+<td><a href="details.php?id=3345460" class="detLink" title="Detaljer för Sybex.Linux.Power.Tools.eBook-LiB.chm">Sybex.Linux.Power.Tools.eBook-LiB.chm</a></td>
+<td>06-17&nbsp;08:42</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3345460.torrent/Sybex.Linux.Power.Tools.eBook-LiB.chm.3345460.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">12.06&nbsp;MiB</td>
+<td align="right">792</td>
+<td align="right">9</td>
+<td align="right">0</td>
+<td><a href="pm.php?to=1043920">Albacken</a></td>
+</tr>
+<tr class="alt">
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=601" title="Mer från denna kategori">Annat > E-böcker</a></td>
+<td><a href="details.php?id=3345455" class="detLink" title="Detaljer för Linux+ Certification Bible.pdf">Linux+ Certification Bible.pdf</a></td>
+<td>06-17&nbsp;08:30</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3345455.torrent/Linux__Certification_Bible.pdf.3345455.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">3.6&nbsp;MiB</td>
+<td align="right">1526</td>
+<td align="right">9</td>
+<td align="right">0</td>
+<td><a href="pm.php?to=1043920">Albacken</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=601" title="Mer från denna kategori">Annat > E-böcker</a></td>
+<td><a href="details.php?id=3345375" class="detLink" title="Detaljer för Addison Wesley - VPN mit Linux.pdf">Addison Wesley - VPN mit Linux.pdf</a></td>
+<td>06-17&nbsp;02:16</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3345375.torrent/Addison_Wesley_-_VPN_mit_Linux.pdf.3345375.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">4.46&nbsp;MiB</td>
+<td align="right">219</td>
+<td align="right">0</td>
+<td align="right">1</td>
+<td><a href="pm.php?to=2061143">theonehix</a></td>
+</tr>
+<tr class="alt">
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=301" title="Mer från denna kategori">Program > Windows</a></td>
+<td><a href="details.php?id=3345340" class="detLink" title="Detaljer för mplayer">mplayer</a></td>
+<td>06-17&nbsp;00:44</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3345340.torrent/mplayer.3345340.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">15.54&nbsp;MiB</td>
+<td align="right">107</td>
+<td align="right">0</td>
+<td align="right">4</td>
+<td><a href="pm.php?to=2062139">Lé Mötrick</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=601" title="Mer från denna kategori">Annat > E-böcker</a></td>
+<td><a href="details.php?id=3344650" class="detLink" title="Detaljer för Linux books for newbie">Linux books for newbie</a></td>
+<td>06-14&nbsp;20:55</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3344650.torrent/Linux_books_for_newbie.3344650.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">10.26&nbsp;MiB</td>
+<td align="right">1645</td>
+<td align="right">5</td>
+<td align="right">0</td>
+<td><a href="pm.php?to=2039216">yelcz</a></td>
+</tr>
+<tr class="alt">
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=601" title="Mer från denna kategori">Annat > E-böcker</a></td>
+<td><a href="details.php?id=3343416" class="detLink" title="Detaljer för Linux - Samba">Linux - Samba</a></td>
+<td>06-11&nbsp;23:11</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3343416.torrent/Linux_-_Samba.3343416.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">3.45&nbsp;MiB</td>
+<td align="right">532</td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td><a href="pm.php?to=881908">adasko490</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=303" title="Mer från denna kategori">Program > UNIX</a></td>
+<td><a href="details.php?id=3342406" class="detLink" title="Detaljer för linuxwarez2-misc">linuxwarez2-misc</a></td>
+<td>06-09&nbsp;18:31</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3342406.torrent/linuxwarez2-misc.3342406.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">892.09&nbsp;MiB</td>
+<td align="right">779</td>
+<td align="right">5</td>
+<td align="right">7</td>
+<td><a href="pm.php?to=527007">seneca</a></td>
+</tr>
+<tr class="alt">
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=301" title="Mer från denna kategori">Program > Windows</a></td>
+<td><a href="details.php?id=3342059" class="detLink" title="Detaljer för Symantec Partition Magic 8.05 FRENCH re-up The Washer">Symantec Partition Magic 8.05 FRENCH re-up The Washer</a></td>
+<td>06-09&nbsp;03:07</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3342059.torrent/Symantec_Partition_Magic_8.05_FRENCH_re-up_The_Washer.3342059.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">57.02&nbsp;MiB</td>
+<td align="right">1017</td>
+<td align="right">4</td>
+<td align="right">0</td>
+<td><a href="pm.php?to=865106">helloitzme</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=201" title="Mer från denna kategori">Video > Filmer</a></td>
+<td><a href="details.php?id=3341823" class="detLink" title="Detaljer för A.Seperate.Peace.2004.DVDRip.XviD-FiCO">A.Seperate.Peace.2004.DVDRip.XviD-FiCO</a></td>
+<td>06-08&nbsp;18:12</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3341823.torrent/A.Seperate.Peace.2004.DVDRip.XviD-FiCO.3341823.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">700.72&nbsp;MiB</td>
+<td align="right">529</td>
+<td align="right">3</td>
+<td align="right">2</td>
+<td><a href="pm.php?to=2002930">the_demon7</a></td>
+</tr>
+<tr class="alt">
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=101" title="Mer från denna kategori">Ljud > Musik</a></td>
+<td><a href="details.php?id=3341615" class="detLink" title="Detaljer för Wagner-Der_Ring_des_Nibelungen-Solti">Wagner-Der_Ring_des_Nibelungen-Solti</a></td>
+<td>06-08&nbsp;09:25</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3341615.torrent/Wagner-Der_Ring_des_Nibelungen-Solti.3341615.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">1.43&nbsp;GiB</td>
+<td align="right">635</td>
+<td align="right">4</td>
+<td align="right">19</td>
+<td><a href="pm.php?to=147761">poincare</a></td>
+</tr>
+<tr>
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=601" title="Mer från denna kategori">Annat > E-böcker</a></td>
+<td><a href="details.php?id=3340803" class="detLink" title="Detaljer för securing_linux_mag1.pdf">securing_linux_mag1.pdf</a></td>
+<td>06-06&nbsp;17:20</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3340803.torrent/securing_linux_mag1.pdf.3340803.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">243.6&nbsp;KiB</td>
+<td align="right">347</td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td><a href="pm.php?to=1043920">Albacken</a></td>
+</tr>
+<tr class="alt">
+<td class="vertTh"><a href="brwsearch.php?b=1&amp;c=601" title="Mer från denna kategori">Annat > E-böcker</a></td>
+<td><a href="details.php?id=3340226" class="detLink" title="Detaljer för Linux Programming Unleashed">Linux Programming Unleashed</a></td>
+<td>06-05&nbsp;15:05</td>
+<td><a href="http://static.thepiratebay.org/downloadtorrent/3340226.torrent/Linux_Programming_Unleashed.3340226.TPB.torrent" title="Ladda ner denna torrent"><img src="http://static.thepiratebay.org/img//dl.gif" class="dl" alt="Ladda ner" /></a></td>
+<td align="right">6.29&nbsp;MiB</td>
+<td align="right">1267</td>
+<td align="right">5</td>
+<td align="right">0</td>
+<td><a href="pm.php?to=1518596">Nitrox</a></td>
+</tr>
+<tr><td colspan="9" style="text-align:center;">&nbsp;1&nbsp;<a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&orderby=&page=1">2</a>&nbsp;<a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&orderby=&page=2">3</a>&nbsp;<a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&orderby=&page=3">4</a>&nbsp;<a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&orderby=&page=4">5</a>&nbsp;<a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&orderby=&page=5">6</a>&nbsp;<a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&orderby=&page=6">7</a>&nbsp;<a href="?q=linux&audio=&video=&apps=&games=&other=&what=search&orderby=&page=1"><img src="http://static.thepiratebay.org/img/next.gif" border=0></a></td></tr>
+</table>
+<p>
+
+<br/>
+
+<a href="login.php">Logga in</a> | <a href="register.php">Registrera</a> | <a href="language.php">Language / Välj språk</a> | 
+<a href="donate.php"><b><em>Donera</em></b></a> | 
+<a href="about.php">Om</a> | 
+<a href="legal.php">Juridisk korrespondens</a> | 
+<a href="news.php">Nyheter</a>
+</p>
+
+<p id="footer" style="color:#666; font-size:.8em; ">
+        412181 registrerade användare.<br />
+        1642644 noder (1309514 reciprokörer + 333130 distributörer) av 73113 torrenter på trackern.<br />
+	Senast uppdaterad 13:05:02<br />
+        Trackermjukvara: Hypercube av anakata</p>
+  <iframe src="http://static.thepiratebay.org/ads/regpbfooter.html" scrolling="none" frameborder="0" width="480px" height="70px" marginwidth="0" marginheight="0"></iframe>
+</body>
+</html>
